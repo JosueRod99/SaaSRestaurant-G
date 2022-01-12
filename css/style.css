@@ -1,0 +1,178 @@
+.bg-theme, .bg-theme2:hover, .bg-theme2:focus {
+    background-color: #0f4596;
+}
+
+.bg-theme2 {
+    background-color: #537591;
+}
+
+.bg-theme3 {
+    background-color: #366291;
+}
+
+.bg-theme4 {
+    background-color: #537591;
+}
+
+.bg-theme5 {
+    background-color: #537591;
+}
+.bg-theme6 {
+    background-color: #c0e1ed;
+    color: black;
+}
+
+
+body {
+    padding-top: 56px;
+}
+
+.sticky-offset {
+    top: 56px;
+}
+
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    padding: 0;
+}
+
+/* Sidebar sizes when expanded and expanded */
+.sidebar-expanded {
+    width: 230px;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+/* Menu item*/
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+/* Separators */
+.sidebar-separator-title {
+    height: 35px;
+    color:white;
+}
+.sidebar-separator {
+    height: 25px;
+}
+.logo-separator {  
+    height: 60px;
+}
+
+
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+  content: "\f0da";
+}
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+  content: "\f0dd";
+}
+
+.tab {
+    color: white;
+}
+
+.tab:hover {
+    color: black;
+}
+
+/* Rooms general view */
+#rooms-header {
+    height: auto;
+}
+#rooms-body {
+    min-height: 500px;
+    background-color: white;
+}
+
+#rooms-footer {
+    height: 70px;
+    background-color: white;
+}
+
+/* Custom button */
+.btn-custom{
+    color:white;
+    background-color: #3f6399;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: #7eaebf;
+}
+
+.btn-custom-order{
+    color:white;
+    background-color: #3f6399;
+    
+}
+
+.btn-custom-order:hover {
+    color: white;
+    background-color: #7eaebf;
+}
+
+/* Tables */
+#table-header {
+    background-color:white;
+}
+
+#table-body {
+    background-color: white;
+}
+
+#table-footer {
+    height: 70px;
+    background-color: white;
+}
+
+/* forms */
+.form-header {
+    background-color: white;
+}
+
+.form-body {
+    background-color: white;
+}
+
+.form-footer{
+    background-color: white;
+}
+
+/* Cards */
+/*
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+*/
+
